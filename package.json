@@ -1,0 +1,60 @@
+{
+  "name": "NAXOS-BOT",
+  "version": "0.0.1",
+  "description": "WhatsApp Bot For Your SAMP Server Using Lib Baileys Multi Device",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "termux",
+    "whatsapp-openai",
+    "whatsapp-openai",
+    "whatsapp-bot",
+    "whatsapp-baileys",
+    "baileys-md",
+    "bot-wa",
+    "bot-md",
+    "whatsapp-multi-device"
+  ],
+  "base": "https://github.com/aruliazmi",
+  "author": "Yusril",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.5.0",
+    "@hapi/boom": "^10.0.0",
+    "awesome-phonenumber": "^2.64.0",
+    "axios": "^1.4.0",
+    "chalk": "^4.1.2",
+    "crypto": "^1.0.1",
+    "dgram": "^1.0.1",
+    "figlet": "^1.5.2",
+    "fs": "^0.0.1-security",
+    "human-readable": "^0.2.1",
+    "jimp": "^0.16.13",
+    "lodash": "^4.17.21",
+    "moment-timezone": "^0.5.43",
+    "mysql": "^2.18.1",
+    "node-fetch": "^3.3.2",
+    "openai": "^3.2.1",
+    "pino": "^7.0.5",
+    "qrcode-terminal": "^0.12.0",
+    "samp-query": "^0.1.5",
+    "ssh2-sftp-client": "^9.1.0",
+    "stream": "^0.0.2",
+    "util": "^0.12.5"
+  },
+  "directories": {
+    "lib": "lib",
+    "src": "src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aruliazmi"
+  },
+  "bugs": {
+    "url": "https://github.com/Sansekai/aruliazmi"
+  },
+  "homepage": "https://github.com/aruliazmi"
+}
